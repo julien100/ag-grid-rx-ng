@@ -1,5 +1,5 @@
 import { NgZone, ViewContainerRef } from "@angular/core";
-import { ICellRendererComp, ICellEditorComp, IFrameworkFactory, ICellRendererFunc, IFilterComp, ColDef, GridOptions } from "ag-grid/main";
+import { ICellRendererComp, ICellEditorComp, IFrameworkFactory, ICellRendererFunc, IFilterComp, ColDef, GridOptions } from "ag-grid-rx/main";
 import { BaseComponentFactory } from "./baseComponentFactory";
 export declare class Ng2FrameworkFactory implements IFrameworkFactory {
     private _componentFactory;

@@ -1,6 +1,6 @@
 "use strict";
 var core_1 = require("@angular/core");
-var main_1 = require("ag-grid/main");
+var main_1 = require("ag-grid-rx/main");
 var baseComponentFactory_1 = require("./baseComponentFactory");
 var Ng2FrameworkFactory = (function () {
     function Ng2FrameworkFactory(_componentFactory, _ngZone) {
@@ -96,10 +96,9 @@ var Ng2FrameworkFactory = (function () {
         this._viewContainerRef = viewContainerRef;
     };
     Ng2FrameworkFactory.prototype.setTimeout = function (action, timeout) {
-        var _this = this;
         this._ngZone.runOutsideAngular(function () {
             setTimeout(function () {
-                _this._ngZone.run(action);
+                action();
             }, timeout);
         });
     };

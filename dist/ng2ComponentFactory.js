@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var core_1 = require("@angular/core");
-var main_1 = require("ag-grid/main");
+var main_1 = require("ag-grid-rx/main");
 var baseComponentFactory_1 = require("./baseComponentFactory");
 var Ng2ComponentFactory = (function (_super) {
     __extends(Ng2ComponentFactory, _super);

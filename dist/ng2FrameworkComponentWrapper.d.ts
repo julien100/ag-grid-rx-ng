@@ -1,6 +1,6 @@
 import { ComponentRef, ViewContainerRef, ComponentFactoryResolver } from "@angular/core";
-import { IComponent } from "ag-grid/main";
-import { FrameworkComponentWrapper } from 'ag-grid';
+import { IComponent } from "ag-grid-rx/main";
+import { FrameworkComponentWrapper } from 'ag-grid-rx';
 export declare class Ng2FrameworkComponentWrapper implements FrameworkComponentWrapper {
     private viewContainerRef;
     private componentFactoryResolver;

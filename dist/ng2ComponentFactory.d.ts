@@ -1,5 +1,5 @@
 import { ViewContainerRef, ComponentRef, ComponentFactoryResolver } from "@angular/core";
-import { ICellRendererComp, ICellEditorComp, IFilterComp } from "ag-grid/main";
+import { ICellRendererComp, ICellEditorComp, IFilterComp } from "ag-grid-rx/main";
 import { BaseComponentFactory } from "./baseComponentFactory";
 import { ICellRendererAngularComp, ICellEditorAngularComp, IFilterAngularComp } from "./interfaces";
 export declare class Ng2ComponentFactory extends BaseComponentFactory {

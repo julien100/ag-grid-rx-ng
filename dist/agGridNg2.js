@@ -1,6 +1,6 @@
 "use strict";
 var core_1 = require("@angular/core");
-var main_1 = require("ag-grid/main");
+var main_1 = require("ag-grid-rx/main");
 var ng2FrameworkFactory_1 = require("./ng2FrameworkFactory");
 var agGridColumn_1 = require("./agGridColumn");
 var ng2FrameworkComponentWrapper_1 = require("./ng2FrameworkComponentWrapper");

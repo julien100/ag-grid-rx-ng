@@ -1,4 +1,4 @@
-import { IHeaderGroup, IHeaderGroupParams, IHeader, IHeaderParams, IFilterParams, IDate, IDateParams, ICellRenderer, ICellRendererParams, ICellEditor, ICellEditorParams, IFilter, IAfterGuiAttachedParams } from "ag-grid/main";
+import { IHeaderGroup, IHeaderGroupParams, IHeader, IHeaderParams, IFilterParams, IDate, IDateParams, ICellRenderer, ICellRendererParams, ICellEditor, ICellEditorParams, IFilter, IAfterGuiAttachedParams } from "ag-grid-rx/main";
 export interface AgFrameworkComponent<T> {
     agInit(params: T): void;
     afterGuiAttached?(params?: IAfterGuiAttachedParams): void;

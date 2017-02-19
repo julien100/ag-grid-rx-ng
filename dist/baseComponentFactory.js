@@ -1,6 +1,6 @@
 "use strict";
 var core_1 = require("@angular/core");
-var main_1 = require("ag-grid/main");
+var main_1 = require("ag-grid-rx/main");
 var BaseComponentFactory = (function () {
     function BaseComponentFactory() {
     }

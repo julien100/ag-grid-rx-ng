@@ -14,7 +14,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var main_1 = require("ag-grid/main");
+var main_1 = require("ag-grid-rx/main");
 var Ng2FrameworkComponentWrapper = (function () {
     function Ng2FrameworkComponentWrapper() {
     }

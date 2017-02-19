@@ -1,5 +1,5 @@
 import { ViewContainerRef } from "@angular/core";
-import { ICellRendererComp, ICellEditorComp, IFilterComp } from "ag-grid/main";
+import { ICellRendererComp, ICellEditorComp, IFilterComp } from "ag-grid-rx/main";
 import { ICellRendererAngularComp, ICellEditorAngularComp, IFilterAngularComp } from "./interfaces";
 export declare class BaseComponentFactory {
     createCellRendererFromComponent(componentType: {
