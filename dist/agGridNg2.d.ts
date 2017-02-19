@@ -27,6 +27,7 @@ export declare class AgGridNg2 implements AfterViewInit {
     gridOptions: GridOptions;
     slaveGrids: any;
     rowData: any;
+    rowDataKeyProperty: any;
     floatingTopRowData: any;
     floatingBottomRowData: any;
     columnDefs: any;
@@ -81,7 +82,6 @@ export declare class AgGridNg2 implements AfterViewInit {
     getMainMenuItems: any;
     processRowPostCreate: any;
     processCellForClipboard: any;
-    getNodeChildDetails: any;
     groupRowAggNodes: any;
     getRowNodeId: any;
     isFullWidthCell: any;

@@ -14,6 +14,7 @@ var AgGridNg2 = (function () {
         this._destroyed = false;
         this.slaveGrids = undefined;
         this.rowData = undefined;
+        this.rowDataKeyProperty = undefined;
         this.floatingTopRowData = undefined;
         this.floatingBottomRowData = undefined;
         this.columnDefs = undefined;
@@ -68,7 +69,7 @@ var AgGridNg2 = (function () {
         this.getMainMenuItems = undefined;
         this.processRowPostCreate = undefined;
         this.processCellForClipboard = undefined;
-        this.getNodeChildDetails = undefined;
+        //@Input() public getNodeChildDetails: any = undefined;
         this.groupRowAggNodes = undefined;
         this.getRowNodeId = undefined;
         this.isFullWidthCell = undefined;
@@ -232,7 +233,7 @@ var AgGridNg2 = (function () {
     };
     AgGridNg2.decorators = [
         { type: core_1.Component, args: [{
-                    selector: 'ag-grid-ng2',
+                    selector: 'ag-grid-rx',
                     template: '',
                     providers: [
                         ng2FrameworkFactory_1.Ng2FrameworkFactory,
@@ -255,6 +256,7 @@ var AgGridNg2 = (function () {
         'gridOptions': [{ type: core_1.Input },],
         'slaveGrids': [{ type: core_1.Input },],
         'rowData': [{ type: core_1.Input },],
+        'rowDataKeyProperty': [{ type: core_1.Input },],
         'floatingTopRowData': [{ type: core_1.Input },],
         'floatingBottomRowData': [{ type: core_1.Input },],
         'columnDefs': [{ type: core_1.Input },],
@@ -309,7 +311,6 @@ var AgGridNg2 = (function () {
         'getMainMenuItems': [{ type: core_1.Input },],
         'processRowPostCreate': [{ type: core_1.Input },],
         'processCellForClipboard': [{ type: core_1.Input },],
-        'getNodeChildDetails': [{ type: core_1.Input },],
         'groupRowAggNodes': [{ type: core_1.Input },],
         'getRowNodeId': [{ type: core_1.Input },],
         'isFullWidthCell': [{ type: core_1.Input },],

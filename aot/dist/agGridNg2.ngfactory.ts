@@ -499,443 +499,443 @@ export class Wrapper_AgGridNg2 {
       this._expr_2 = currValue;
     }
   }
-  check_floatingTopRowData(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowDataKeyProperty(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_3,currValue))) {
       this._changed = true;
-      this.context.floatingTopRowData = currValue;
-      this._changes['floatingTopRowData'] = new import1.SimpleChange(this._expr_3,currValue);
+      this.context.rowDataKeyProperty = currValue;
+      this._changes['rowDataKeyProperty'] = new import1.SimpleChange(this._expr_3,currValue);
       this._expr_3 = currValue;
     }
   }
-  check_floatingBottomRowData(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_floatingTopRowData(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_4,currValue))) {
       this._changed = true;
-      this.context.floatingBottomRowData = currValue;
-      this._changes['floatingBottomRowData'] = new import1.SimpleChange(this._expr_4,currValue);
+      this.context.floatingTopRowData = currValue;
+      this._changes['floatingTopRowData'] = new import1.SimpleChange(this._expr_4,currValue);
       this._expr_4 = currValue;
     }
   }
-  check_columnDefs(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_floatingBottomRowData(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_5,currValue))) {
       this._changed = true;
-      this.context.columnDefs = currValue;
-      this._changes['columnDefs'] = new import1.SimpleChange(this._expr_5,currValue);
+      this.context.floatingBottomRowData = currValue;
+      this._changes['floatingBottomRowData'] = new import1.SimpleChange(this._expr_5,currValue);
       this._expr_5 = currValue;
     }
   }
-  check_defaultColDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_columnDefs(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_6,currValue))) {
       this._changed = true;
-      this.context.defaultColDef = currValue;
-      this._changes['defaultColDef'] = new import1.SimpleChange(this._expr_6,currValue);
+      this.context.columnDefs = currValue;
+      this._changes['columnDefs'] = new import1.SimpleChange(this._expr_6,currValue);
       this._expr_6 = currValue;
     }
   }
-  check_rowStyle(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_defaultColDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_7,currValue))) {
       this._changed = true;
-      this.context.rowStyle = currValue;
-      this._changes['rowStyle'] = new import1.SimpleChange(this._expr_7,currValue);
+      this.context.defaultColDef = currValue;
+      this._changes['defaultColDef'] = new import1.SimpleChange(this._expr_7,currValue);
       this._expr_7 = currValue;
     }
   }
-  check_context(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowStyle(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_8,currValue))) {
       this._changed = true;
-      this.context.context = currValue;
-      this._changes['context'] = new import1.SimpleChange(this._expr_8,currValue);
+      this.context.rowStyle = currValue;
+      this._changes['rowStyle'] = new import1.SimpleChange(this._expr_8,currValue);
       this._expr_8 = currValue;
     }
   }
-  check_groupColumnDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_context(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_9,currValue))) {
       this._changed = true;
-      this.context.groupColumnDef = currValue;
-      this._changes['groupColumnDef'] = new import1.SimpleChange(this._expr_9,currValue);
+      this.context.context = currValue;
+      this._changes['context'] = new import1.SimpleChange(this._expr_9,currValue);
       this._expr_9 = currValue;
     }
   }
-  check_localeText(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupColumnDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_10,currValue))) {
       this._changed = true;
-      this.context.localeText = currValue;
-      this._changes['localeText'] = new import1.SimpleChange(this._expr_10,currValue);
+      this.context.groupColumnDef = currValue;
+      this._changes['groupColumnDef'] = new import1.SimpleChange(this._expr_10,currValue);
       this._expr_10 = currValue;
     }
   }
-  check_icons(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_localeText(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_11,currValue))) {
       this._changed = true;
-      this.context.icons = currValue;
-      this._changes['icons'] = new import1.SimpleChange(this._expr_11,currValue);
+      this.context.localeText = currValue;
+      this._changes['localeText'] = new import1.SimpleChange(this._expr_11,currValue);
       this._expr_11 = currValue;
     }
   }
-  check_datasource(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_icons(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_12,currValue))) {
       this._changed = true;
-      this.context.datasource = currValue;
-      this._changes['datasource'] = new import1.SimpleChange(this._expr_12,currValue);
+      this.context.icons = currValue;
+      this._changes['icons'] = new import1.SimpleChange(this._expr_12,currValue);
       this._expr_12 = currValue;
     }
   }
-  check_viewportDatasource(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_datasource(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_13,currValue))) {
       this._changed = true;
-      this.context.viewportDatasource = currValue;
-      this._changes['viewportDatasource'] = new import1.SimpleChange(this._expr_13,currValue);
+      this.context.datasource = currValue;
+      this._changes['datasource'] = new import1.SimpleChange(this._expr_13,currValue);
       this._expr_13 = currValue;
     }
   }
-  check_groupRowRendererParams(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_viewportDatasource(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_14,currValue))) {
       this._changed = true;
-      this.context.groupRowRendererParams = currValue;
-      this._changes['groupRowRendererParams'] = new import1.SimpleChange(this._expr_14,currValue);
+      this.context.viewportDatasource = currValue;
+      this._changes['viewportDatasource'] = new import1.SimpleChange(this._expr_14,currValue);
       this._expr_14 = currValue;
     }
   }
-  check_aggFuncs(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupRowRendererParams(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_15,currValue))) {
       this._changed = true;
-      this.context.aggFuncs = currValue;
-      this._changes['aggFuncs'] = new import1.SimpleChange(this._expr_15,currValue);
+      this.context.groupRowRendererParams = currValue;
+      this._changes['groupRowRendererParams'] = new import1.SimpleChange(this._expr_15,currValue);
       this._expr_15 = currValue;
     }
   }
-  check_fullWidthCellRendererParams(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_aggFuncs(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_16,currValue))) {
       this._changed = true;
-      this.context.fullWidthCellRendererParams = currValue;
-      this._changes['fullWidthCellRendererParams'] = new import1.SimpleChange(this._expr_16,currValue);
+      this.context.aggFuncs = currValue;
+      this._changes['aggFuncs'] = new import1.SimpleChange(this._expr_16,currValue);
       this._expr_16 = currValue;
     }
   }
-  check_sortingOrder(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_fullWidthCellRendererParams(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_17,currValue))) {
       this._changed = true;
-      this.context.sortingOrder = currValue;
-      this._changes['sortingOrder'] = new import1.SimpleChange(this._expr_17,currValue);
+      this.context.fullWidthCellRendererParams = currValue;
+      this._changes['fullWidthCellRendererParams'] = new import1.SimpleChange(this._expr_17,currValue);
       this._expr_17 = currValue;
     }
   }
-  check_rowClass(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_sortingOrder(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_18,currValue))) {
       this._changed = true;
-      this.context.rowClass = currValue;
-      this._changes['rowClass'] = new import1.SimpleChange(this._expr_18,currValue);
+      this.context.sortingOrder = currValue;
+      this._changes['sortingOrder'] = new import1.SimpleChange(this._expr_18,currValue);
       this._expr_18 = currValue;
     }
   }
-  check_rowSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowClass(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_19,currValue))) {
       this._changed = true;
-      this.context.rowSelection = currValue;
-      this._changes['rowSelection'] = new import1.SimpleChange(this._expr_19,currValue);
+      this.context.rowClass = currValue;
+      this._changes['rowClass'] = new import1.SimpleChange(this._expr_19,currValue);
       this._expr_19 = currValue;
     }
   }
-  check_overlayLoadingTemplate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_20,currValue))) {
       this._changed = true;
-      this.context.overlayLoadingTemplate = currValue;
-      this._changes['overlayLoadingTemplate'] = new import1.SimpleChange(this._expr_20,currValue);
+      this.context.rowSelection = currValue;
+      this._changes['rowSelection'] = new import1.SimpleChange(this._expr_20,currValue);
       this._expr_20 = currValue;
     }
   }
-  check_overlayNoRowsTemplate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_overlayLoadingTemplate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_21,currValue))) {
       this._changed = true;
-      this.context.overlayNoRowsTemplate = currValue;
-      this._changes['overlayNoRowsTemplate'] = new import1.SimpleChange(this._expr_21,currValue);
+      this.context.overlayLoadingTemplate = currValue;
+      this._changes['overlayLoadingTemplate'] = new import1.SimpleChange(this._expr_21,currValue);
       this._expr_21 = currValue;
     }
   }
-  check_headerCellTemplate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_overlayNoRowsTemplate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_22,currValue))) {
       this._changed = true;
-      this.context.headerCellTemplate = currValue;
-      this._changes['headerCellTemplate'] = new import1.SimpleChange(this._expr_22,currValue);
+      this.context.overlayNoRowsTemplate = currValue;
+      this._changes['overlayNoRowsTemplate'] = new import1.SimpleChange(this._expr_22,currValue);
       this._expr_22 = currValue;
     }
   }
-  check_quickFilterText(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_headerCellTemplate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_23,currValue))) {
       this._changed = true;
-      this.context.quickFilterText = currValue;
-      this._changes['quickFilterText'] = new import1.SimpleChange(this._expr_23,currValue);
+      this.context.headerCellTemplate = currValue;
+      this._changes['headerCellTemplate'] = new import1.SimpleChange(this._expr_23,currValue);
       this._expr_23 = currValue;
     }
   }
-  check_rowModelType(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_quickFilterText(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_24,currValue))) {
       this._changed = true;
-      this.context.rowModelType = currValue;
-      this._changes['rowModelType'] = new import1.SimpleChange(this._expr_24,currValue);
+      this.context.quickFilterText = currValue;
+      this._changes['quickFilterText'] = new import1.SimpleChange(this._expr_24,currValue);
       this._expr_24 = currValue;
     }
   }
-  check_rowHeight(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowModelType(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_25,currValue))) {
       this._changed = true;
-      this.context.rowHeight = currValue;
-      this._changes['rowHeight'] = new import1.SimpleChange(this._expr_25,currValue);
+      this.context.rowModelType = currValue;
+      this._changes['rowModelType'] = new import1.SimpleChange(this._expr_25,currValue);
       this._expr_25 = currValue;
     }
   }
-  check_rowBuffer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowHeight(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_26,currValue))) {
       this._changed = true;
-      this.context.rowBuffer = currValue;
-      this._changes['rowBuffer'] = new import1.SimpleChange(this._expr_26,currValue);
+      this.context.rowHeight = currValue;
+      this._changes['rowHeight'] = new import1.SimpleChange(this._expr_26,currValue);
       this._expr_26 = currValue;
     }
   }
-  check_colWidth(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowBuffer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_27,currValue))) {
       this._changed = true;
-      this.context.colWidth = currValue;
-      this._changes['colWidth'] = new import1.SimpleChange(this._expr_27,currValue);
+      this.context.rowBuffer = currValue;
+      this._changes['rowBuffer'] = new import1.SimpleChange(this._expr_27,currValue);
       this._expr_27 = currValue;
     }
   }
-  check_headerHeight(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_colWidth(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_28,currValue))) {
       this._changed = true;
-      this.context.headerHeight = currValue;
-      this._changes['headerHeight'] = new import1.SimpleChange(this._expr_28,currValue);
+      this.context.colWidth = currValue;
+      this._changes['colWidth'] = new import1.SimpleChange(this._expr_28,currValue);
       this._expr_28 = currValue;
     }
   }
-  check_groupDefaultExpanded(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_headerHeight(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_29,currValue))) {
       this._changed = true;
-      this.context.groupDefaultExpanded = currValue;
-      this._changes['groupDefaultExpanded'] = new import1.SimpleChange(this._expr_29,currValue);
+      this.context.headerHeight = currValue;
+      this._changes['headerHeight'] = new import1.SimpleChange(this._expr_29,currValue);
       this._expr_29 = currValue;
     }
   }
-  check_minColWidth(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupDefaultExpanded(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_30,currValue))) {
       this._changed = true;
-      this.context.minColWidth = currValue;
-      this._changes['minColWidth'] = new import1.SimpleChange(this._expr_30,currValue);
+      this.context.groupDefaultExpanded = currValue;
+      this._changes['groupDefaultExpanded'] = new import1.SimpleChange(this._expr_30,currValue);
       this._expr_30 = currValue;
     }
   }
-  check_maxColWidth(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_minColWidth(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_31,currValue))) {
       this._changed = true;
-      this.context.maxColWidth = currValue;
-      this._changes['maxColWidth'] = new import1.SimpleChange(this._expr_31,currValue);
+      this.context.minColWidth = currValue;
+      this._changes['minColWidth'] = new import1.SimpleChange(this._expr_31,currValue);
       this._expr_31 = currValue;
     }
   }
-  check_viewportRowModelPageSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_maxColWidth(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_32,currValue))) {
       this._changed = true;
-      this.context.viewportRowModelPageSize = currValue;
-      this._changes['viewportRowModelPageSize'] = new import1.SimpleChange(this._expr_32,currValue);
+      this.context.maxColWidth = currValue;
+      this._changes['maxColWidth'] = new import1.SimpleChange(this._expr_32,currValue);
       this._expr_32 = currValue;
     }
   }
-  check_viewportRowModelBufferSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_viewportRowModelPageSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_33,currValue))) {
       this._changed = true;
-      this.context.viewportRowModelBufferSize = currValue;
-      this._changes['viewportRowModelBufferSize'] = new import1.SimpleChange(this._expr_33,currValue);
+      this.context.viewportRowModelPageSize = currValue;
+      this._changes['viewportRowModelPageSize'] = new import1.SimpleChange(this._expr_33,currValue);
       this._expr_33 = currValue;
     }
   }
-  check_layoutInterval(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_viewportRowModelBufferSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_34,currValue))) {
       this._changed = true;
-      this.context.layoutInterval = currValue;
-      this._changes['layoutInterval'] = new import1.SimpleChange(this._expr_34,currValue);
+      this.context.viewportRowModelBufferSize = currValue;
+      this._changes['viewportRowModelBufferSize'] = new import1.SimpleChange(this._expr_34,currValue);
       this._expr_34 = currValue;
     }
   }
-  check_autoSizePadding(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_layoutInterval(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_35,currValue))) {
       this._changed = true;
-      this.context.autoSizePadding = currValue;
-      this._changes['autoSizePadding'] = new import1.SimpleChange(this._expr_35,currValue);
+      this.context.layoutInterval = currValue;
+      this._changes['layoutInterval'] = new import1.SimpleChange(this._expr_35,currValue);
       this._expr_35 = currValue;
     }
   }
-  check_maxPagesInCache(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_autoSizePadding(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_36,currValue))) {
       this._changed = true;
-      this.context.maxPagesInCache = currValue;
-      this._changes['maxPagesInCache'] = new import1.SimpleChange(this._expr_36,currValue);
+      this.context.autoSizePadding = currValue;
+      this._changes['autoSizePadding'] = new import1.SimpleChange(this._expr_36,currValue);
       this._expr_36 = currValue;
     }
   }
-  check_maxConcurrentDatasourceRequests(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_maxPagesInCache(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_37,currValue))) {
       this._changed = true;
-      this.context.maxConcurrentDatasourceRequests = currValue;
-      this._changes['maxConcurrentDatasourceRequests'] = new import1.SimpleChange(this._expr_37,currValue);
+      this.context.maxPagesInCache = currValue;
+      this._changes['maxPagesInCache'] = new import1.SimpleChange(this._expr_37,currValue);
       this._expr_37 = currValue;
     }
   }
-  check_paginationOverflowSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_maxConcurrentDatasourceRequests(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_38,currValue))) {
       this._changed = true;
-      this.context.paginationOverflowSize = currValue;
-      this._changes['paginationOverflowSize'] = new import1.SimpleChange(this._expr_38,currValue);
+      this.context.maxConcurrentDatasourceRequests = currValue;
+      this._changes['maxConcurrentDatasourceRequests'] = new import1.SimpleChange(this._expr_38,currValue);
       this._expr_38 = currValue;
     }
   }
-  check_paginationPageSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_paginationOverflowSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_39,currValue))) {
       this._changed = true;
-      this.context.paginationPageSize = currValue;
-      this._changes['paginationPageSize'] = new import1.SimpleChange(this._expr_39,currValue);
+      this.context.paginationOverflowSize = currValue;
+      this._changes['paginationOverflowSize'] = new import1.SimpleChange(this._expr_39,currValue);
       this._expr_39 = currValue;
     }
   }
-  check_paginationInitialRowCount(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_paginationPageSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_40,currValue))) {
       this._changed = true;
-      this.context.paginationInitialRowCount = currValue;
-      this._changes['paginationInitialRowCount'] = new import1.SimpleChange(this._expr_40,currValue);
+      this.context.paginationPageSize = currValue;
+      this._changes['paginationPageSize'] = new import1.SimpleChange(this._expr_40,currValue);
       this._expr_40 = currValue;
     }
   }
-  check_headerCellRenderer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_paginationInitialRowCount(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_41,currValue))) {
       this._changed = true;
-      this.context.headerCellRenderer = currValue;
-      this._changes['headerCellRenderer'] = new import1.SimpleChange(this._expr_41,currValue);
+      this.context.paginationInitialRowCount = currValue;
+      this._changes['paginationInitialRowCount'] = new import1.SimpleChange(this._expr_41,currValue);
       this._expr_41 = currValue;
     }
   }
-  check_localeTextFunc(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_headerCellRenderer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_42,currValue))) {
       this._changed = true;
-      this.context.localeTextFunc = currValue;
-      this._changes['localeTextFunc'] = new import1.SimpleChange(this._expr_42,currValue);
+      this.context.headerCellRenderer = currValue;
+      this._changes['headerCellRenderer'] = new import1.SimpleChange(this._expr_42,currValue);
       this._expr_42 = currValue;
     }
   }
-  check_groupRowInnerRenderer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_localeTextFunc(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_43,currValue))) {
       this._changed = true;
-      this.context.groupRowInnerRenderer = currValue;
-      this._changes['groupRowInnerRenderer'] = new import1.SimpleChange(this._expr_43,currValue);
+      this.context.localeTextFunc = currValue;
+      this._changes['localeTextFunc'] = new import1.SimpleChange(this._expr_43,currValue);
       this._expr_43 = currValue;
     }
   }
-  check_groupRowRenderer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupRowInnerRenderer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_44,currValue))) {
       this._changed = true;
-      this.context.groupRowRenderer = currValue;
-      this._changes['groupRowRenderer'] = new import1.SimpleChange(this._expr_44,currValue);
+      this.context.groupRowInnerRenderer = currValue;
+      this._changes['groupRowInnerRenderer'] = new import1.SimpleChange(this._expr_44,currValue);
       this._expr_44 = currValue;
     }
   }
-  check_isScrollLag(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupRowRenderer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_45,currValue))) {
       this._changed = true;
-      this.context.isScrollLag = currValue;
-      this._changes['isScrollLag'] = new import1.SimpleChange(this._expr_45,currValue);
+      this.context.groupRowRenderer = currValue;
+      this._changes['groupRowRenderer'] = new import1.SimpleChange(this._expr_45,currValue);
       this._expr_45 = currValue;
     }
   }
-  check_isExternalFilterPresent(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_isScrollLag(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_46,currValue))) {
       this._changed = true;
-      this.context.isExternalFilterPresent = currValue;
-      this._changes['isExternalFilterPresent'] = new import1.SimpleChange(this._expr_46,currValue);
+      this.context.isScrollLag = currValue;
+      this._changes['isScrollLag'] = new import1.SimpleChange(this._expr_46,currValue);
       this._expr_46 = currValue;
     }
   }
-  check_getRowHeight(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_isExternalFilterPresent(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_47,currValue))) {
       this._changed = true;
-      this.context.getRowHeight = currValue;
-      this._changes['getRowHeight'] = new import1.SimpleChange(this._expr_47,currValue);
+      this.context.isExternalFilterPresent = currValue;
+      this._changes['isExternalFilterPresent'] = new import1.SimpleChange(this._expr_47,currValue);
       this._expr_47 = currValue;
     }
   }
-  check_doesExternalFilterPass(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getRowHeight(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_48,currValue))) {
       this._changed = true;
-      this.context.doesExternalFilterPass = currValue;
-      this._changes['doesExternalFilterPass'] = new import1.SimpleChange(this._expr_48,currValue);
+      this.context.getRowHeight = currValue;
+      this._changes['getRowHeight'] = new import1.SimpleChange(this._expr_48,currValue);
       this._expr_48 = currValue;
     }
   }
-  check_getRowClass(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_doesExternalFilterPass(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_49,currValue))) {
       this._changed = true;
-      this.context.getRowClass = currValue;
-      this._changes['getRowClass'] = new import1.SimpleChange(this._expr_49,currValue);
+      this.context.doesExternalFilterPass = currValue;
+      this._changes['doesExternalFilterPass'] = new import1.SimpleChange(this._expr_49,currValue);
       this._expr_49 = currValue;
     }
   }
-  check_getRowStyle(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getRowClass(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_50,currValue))) {
       this._changed = true;
-      this.context.getRowStyle = currValue;
-      this._changes['getRowStyle'] = new import1.SimpleChange(this._expr_50,currValue);
+      this.context.getRowClass = currValue;
+      this._changes['getRowClass'] = new import1.SimpleChange(this._expr_50,currValue);
       this._expr_50 = currValue;
     }
   }
-  check_getHeaderCellTemplate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getRowStyle(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_51,currValue))) {
       this._changed = true;
-      this.context.getHeaderCellTemplate = currValue;
-      this._changes['getHeaderCellTemplate'] = new import1.SimpleChange(this._expr_51,currValue);
+      this.context.getRowStyle = currValue;
+      this._changes['getRowStyle'] = new import1.SimpleChange(this._expr_51,currValue);
       this._expr_51 = currValue;
     }
   }
-  check_traverseNode(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getHeaderCellTemplate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_52,currValue))) {
       this._changed = true;
-      this.context.traverseNode = currValue;
-      this._changes['traverseNode'] = new import1.SimpleChange(this._expr_52,currValue);
+      this.context.getHeaderCellTemplate = currValue;
+      this._changes['getHeaderCellTemplate'] = new import1.SimpleChange(this._expr_52,currValue);
       this._expr_52 = currValue;
     }
   }
-  check_getContextMenuItems(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_traverseNode(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_53,currValue))) {
       this._changed = true;
-      this.context.getContextMenuItems = currValue;
-      this._changes['getContextMenuItems'] = new import1.SimpleChange(this._expr_53,currValue);
+      this.context.traverseNode = currValue;
+      this._changes['traverseNode'] = new import1.SimpleChange(this._expr_53,currValue);
       this._expr_53 = currValue;
     }
   }
-  check_getMainMenuItems(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getContextMenuItems(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_54,currValue))) {
       this._changed = true;
-      this.context.getMainMenuItems = currValue;
-      this._changes['getMainMenuItems'] = new import1.SimpleChange(this._expr_54,currValue);
+      this.context.getContextMenuItems = currValue;
+      this._changes['getContextMenuItems'] = new import1.SimpleChange(this._expr_54,currValue);
       this._expr_54 = currValue;
     }
   }
-  check_processRowPostCreate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getMainMenuItems(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_55,currValue))) {
       this._changed = true;
-      this.context.processRowPostCreate = currValue;
-      this._changes['processRowPostCreate'] = new import1.SimpleChange(this._expr_55,currValue);
+      this.context.getMainMenuItems = currValue;
+      this._changes['getMainMenuItems'] = new import1.SimpleChange(this._expr_55,currValue);
       this._expr_55 = currValue;
     }
   }
-  check_processCellForClipboard(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_processRowPostCreate(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_56,currValue))) {
       this._changed = true;
-      this.context.processCellForClipboard = currValue;
-      this._changes['processCellForClipboard'] = new import1.SimpleChange(this._expr_56,currValue);
+      this.context.processRowPostCreate = currValue;
+      this._changes['processRowPostCreate'] = new import1.SimpleChange(this._expr_56,currValue);
       this._expr_56 = currValue;
     }
   }
-  check_getNodeChildDetails(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_processCellForClipboard(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_57,currValue))) {
       this._changed = true;
-      this.context.getNodeChildDetails = currValue;
-      this._changes['getNodeChildDetails'] = new import1.SimpleChange(this._expr_57,currValue);
+      this.context.processCellForClipboard = currValue;
+      this._changes['processCellForClipboard'] = new import1.SimpleChange(this._expr_57,currValue);
       this._expr_57 = currValue;
     }
   }
@@ -1798,7 +1798,7 @@ class View_AgGridNg2_Host0 extends import2.AppView<any> {
     super(View_AgGridNg2_Host0,renderType_AgGridNg2_Host,import10.ViewType.HOST,viewUtils,parentView,parentIndex,parentElement,import11.ChangeDetectorStatus.CheckAlways);
   }
   createInternal(rootSelector:string):import12.ComponentRef<any> {
-    this._el_0 = import3.selectOrCreateRenderHostElement(this.renderer,'ag-grid-ng2',import3.EMPTY_INLINE_ARRAY,rootSelector,(null as any));
+    this._el_0 = import3.selectOrCreateRenderHostElement(this.renderer,'ag-grid-rx',import3.EMPTY_INLINE_ARRAY,rootSelector,(null as any));
     this._vc_0 = new import6.ViewContainer(0,(null as any),this,this._el_0);
     this.compView_0 = new View_AgGridNg20(this.viewUtils,this,0,this._el_0);
     this._Ng2FrameworkFactory_0_5 = new import7.Ng2FrameworkFactory(this.injectorGet(import13.BaseComponentFactory,this.parentIndex),this.injectorGet(import14.NgZone,this.parentIndex));
@@ -1838,7 +1838,7 @@ class View_AgGridNg2_Host0 extends import2.AppView<any> {
     cb(this._el_1,ctx);
   }
 }
-export const AgGridNg2NgFactory:import12.ComponentFactory<import0.AgGridNg2> = new import12.ComponentFactory<import0.AgGridNg2>('ag-grid-ng2',View_AgGridNg2_Host0,import0.AgGridNg2);
+export const AgGridNg2NgFactory:import12.ComponentFactory<import0.AgGridNg2> = new import12.ComponentFactory<import0.AgGridNg2>('ag-grid-rx',View_AgGridNg2_Host0,import0.AgGridNg2);
 const styles_AgGridNg2:any[] = ([] as any[]);
 var renderType_AgGridNg2:import4.RenderComponentType = import3.createRenderComponentType('',0,import5.ViewEncapsulation.None,styles_AgGridNg2,{});
 export class View_AgGridNg20 extends import2.AppView<import0.AgGridNg2> {
