@@ -1,6 +1,6 @@
 {
   "name": "ag-grid-rx-ng",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "ag-Grid-rx Angular (2+) Component",
   "main": "main.js",
   "typings": "main.d.ts",
@@ -44,7 +44,7 @@
     "typescript": "2.0.3"
   },
   "peerDependencies": {
-    "ag-grid-rx": "~8.0.2",
+    "ag-grid-rx": "~8.0.3",
     "@angular/compiler": ">=2.1.x",
     "@angular/compiler-cli": ">=2.1.x",
     "@angular/core": ">=2.1.x",
