@@ -8,7 +8,7 @@ import {
     IFilterComp,
     ColDef,
     GridOptions
-} from "ag-grid/main";
+} from "ag-grid-rx/main";
 import {BaseComponentFactory} from "./baseComponentFactory";
 
 @Injectable()

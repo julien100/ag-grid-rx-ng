@@ -1,6 +1,6 @@
 import {ComponentRef, ViewContainerRef, Injectable, ComponentFactoryResolver} from "@angular/core";
-import {IComponent, Bean}  from "ag-grid/main";
-import {FrameworkComponentWrapper}  from 'ag-grid';
+import {IComponent, Bean}  from "ag-grid-rx/main";
+import {FrameworkComponentWrapper}  from 'ag-grid-rx';
 import {AgFrameworkComponent} from "./interfaces";
 
 @Injectable()

@@ -36,19 +36,18 @@ gulp.task('ngc-main', () => {
 
 // the main release task - clean, compile and add header template
 gulp.task('release', ['clean-ngc'], function () {
-    require('./agGridPropertiesCheck');
+    // require('./agGridPropertiesCheck');
     gulp.src(['./dist/', '!./dist/**/*.metadata.json'])
         .pipe(header(headerTemplate, {pkg: pkg}))
         .pipe(gulp.dest('./dist/'));
 });
 
 gulp.task('copy-nm-dirs', (callback) => {
-    runSequence('copy-from-ag-grid', 'copy-from-ag-grid-enterprise', callback);
+    runSequence('copy-from-ag-grid', callback);
 });
 
 gulp.task('watch', ['copy-nm-dirs'], () => {
-    gulp.watch(['../ag-grid/dist/**/*', '../ag-grid/src/**/*'], ['copy-from-ag-grid']);
-    gulp.watch(['../ag-grid-enterprise/dist/**/*', '../ag-grid-enterprise/src/**/*'], ['copy-from-ag-grid-enterprise']);
+    gulp.watch(['../ag-grid-rx/dist/**/*', '../ag-grid-rx/src/**/*'], ['copy-from-ag-grid']);
     gulp.watch(['./src/**/*'], ['ngc']);
 });
 

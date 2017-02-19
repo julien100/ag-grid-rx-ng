@@ -1,11 +1,11 @@
 {
-  "name": "ag-grid-ng2",
-  "version": "8.0.0",
-  "homepage": "http://www.ag-grid.com/",
+  "name": "ag-grid-rx-ng",
+  "version": "8.1.0",
+  "homepage": "https://github.com/mrsheepuk/ag-grid-rx",
   "authors": [
     "Niall Crosby <niall.crosby@ag-grid.com>"
   ],
-  "description": "ag-Grid Angular 2 Component",
+  "description": "ag-Grid-rx Angular (2+) Component",
   "main": [
     "./main.js"
   ],

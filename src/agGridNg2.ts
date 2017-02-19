@@ -11,7 +11,7 @@ import {
     AfterViewInit,
     ComponentFactoryResolver
 } from "@angular/core";
-import {Grid, GridOptions, GridApi, ColumnApi, GridParams, ComponentUtil} from "ag-grid/main";
+import {Grid, GridOptions, GridApi, ColumnApi, GridParams, ComponentUtil} from "ag-grid-rx/main";
 import {Ng2FrameworkFactory} from "./ng2FrameworkFactory";
 import {AgGridColumn} from "./agGridColumn";
 import {Ng2FrameworkComponentWrapper} from "./ng2FrameworkComponentWrapper";

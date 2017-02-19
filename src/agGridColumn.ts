@@ -12,7 +12,7 @@ import {
     IAggFunc,
     ColGroupDef,
     GetQuickFilterTextParams
-} from "ag-grid/main";
+} from "ag-grid-rx/main";
 
 @Component({
     selector: 'ag-grid-column',

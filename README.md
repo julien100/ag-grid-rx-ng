@@ -1,19 +1,21 @@
-ag-Grid Angular Component
+ag-Grid-rx Angular (2+) Component
 ==============
 
-This project contains the Angular Component for use with ag-Grid
-
-#### Install with Bower
-```sh
-$ bower install ag-grid-ng2
-```
+This project contains the Angular Component for use with ag-Grid-rx
 
 #### Install with Npm
 ```sh
-$ npm install ag-grid-ng2
+$ npm install ag-grid-rx-ng
 ```
 
-See the [www.ag-grid.com](http://www.ag-grid.com) for an overview and full documentation.
+See [www.ag-grid.com](http://www.ag-grid.com) for an overview and full documentation, **and
+[ag-grid-rx](https://github.com/mrsheepuk/ag-grid-rx-ng) for important differences from the
+main ag-Grid distribution**.
+
+[Some examples can be seen here](https://github.com/ceolter/ag-grid-ng2-example) for the 
+main ag-grid-ng2 component - these may or may not work with this fork (in particular, 
+**pagination and row grouping/child rows are unlikely to work** if using an observable data 
+source).
 
 #### To Build
 - `npm install gulp -g`
@@ -21,31 +23,3 @@ See the [www.ag-grid.com](http://www.ag-grid.com) for an overview and full docum
 - `npm install`
 - `npm-install-peers`
 - `npm run clean-build`
-
-## Examples
-
-See the [https://github.com/ceolter/ag-grid-ng2-example](https://github.com/ceolter/ag-grid-ng2-example) for full 
-working examples of what you can do with ag-Grid and Angular Components.
-
-Examples included are:
-
-## Rich Grid with Pure JavaScript
-![Rich Grid with Pure JavaScript](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/rich-grid.png?raw=true "Rich Grid with Pure JavaScript")
-## Rich Grid with Declarative Markup
-![Rich Grid with Declarative Markup](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/declarative.png?raw=true "Rich Grid with Declarative Markup")
-## Using Dynamic Components
-![Using Dynamic Components](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/dynamic.png?raw=true "Using Dynamic Components")
-## Using Dynamic Components - Richer Example
-![Using Dynamic Components - Richer Example](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/rich-dynamic.png?raw=true "Using Dynamic Components - Richer Example")
-## Using Cell Editor Components
-![Using Cell Editor Components](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/editor.png?raw=true "Using Cell Editor Components")
-## Using Floating Row Renderers
-![Using Floating Row Renderers](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/floating-row.png?raw=true "Using Floating Row Renderers")
-## Using Full Width Renderers
-![Using Full Width Renderers](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/full-width.png?raw=true "Using Full Width Renderers")
-## Using Group Row Renderers
-![Using Group Row Renderers](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/grouped-row.png?raw=true "Using Group Row Renderers")
-## With Filters Components
-![With Filters Components](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/filter.png?raw=true "With Filters Components")
-## Master Detail Example
-![Master Detail Example](https://github.com/ceolter/ag-grid-ng2-example/blob/master/docs/images/master-detail.png?raw=true "Master Detail Example")

@@ -3,7 +3,7 @@ HTMLElement = typeof HTMLElement === 'undefined' ? function () {} : HTMLElement;
 HTMLSelectElement = typeof HTMLSelectElement === 'undefined' ? function () {} : HTMLSelectElement;
 
 var {AgGridNg2} = require('./dist/agGridNg2');
-var {ComponentUtil} = require("ag-grid/main");
+var {ComponentUtil} = require("ag-grid-rx/main");
 
 var missingProperties = [];
 ComponentUtil.ALL_PROPERTIES.forEach((property) => {

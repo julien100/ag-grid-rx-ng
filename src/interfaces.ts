@@ -12,7 +12,7 @@ import {
     ICellEditorParams,
     IFilter,
     IAfterGuiAttachedParams
-} from "ag-grid/main";
+} from "ag-grid-rx/main";
 
 export interface AgFrameworkComponent<T> {
     agInit(params:T) : void;
