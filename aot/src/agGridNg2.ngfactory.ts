@@ -180,6 +180,9 @@ export class Wrapper_AgGridNg2 {
   /*private*/ _expr_150:any;
   /*private*/ _expr_151:any;
   /*private*/ _expr_152:any;
+  /*private*/ _expr_153:any;
+  /*private*/ _expr_154:any;
+  /*private*/ _expr_155:any;
   subscription0:any;
   subscription1:any;
   subscription2:any;
@@ -403,6 +406,9 @@ export class Wrapper_AgGridNg2 {
     this._expr_150 = import1.UNINITIALIZED;
     this._expr_151 = import1.UNINITIALIZED;
     this._expr_152 = import1.UNINITIALIZED;
+    this._expr_153 = import1.UNINITIALIZED;
+    this._expr_154 = import1.UNINITIALIZED;
+    this._expr_155 = import1.UNINITIALIZED;
   }
   ngOnDetach(view:import2.AppView<any>,componentView:import2.AppView<any>,el:any):void {
   }
@@ -939,764 +945,788 @@ export class Wrapper_AgGridNg2 {
       this._expr_57 = currValue;
     }
   }
-  check_groupRowAggNodes(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getNodeChildDetails(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_58,currValue))) {
       this._changed = true;
-      this.context.groupRowAggNodes = currValue;
-      this._changes['groupRowAggNodes'] = new import1.SimpleChange(this._expr_58,currValue);
+      this.context.getNodeChildDetails = currValue;
+      this._changes['getNodeChildDetails'] = new import1.SimpleChange(this._expr_58,currValue);
       this._expr_58 = currValue;
     }
   }
-  check_getRowNodeId(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupRowAggNodes(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_59,currValue))) {
       this._changed = true;
-      this.context.getRowNodeId = currValue;
-      this._changes['getRowNodeId'] = new import1.SimpleChange(this._expr_59,currValue);
+      this.context.groupRowAggNodes = currValue;
+      this._changes['groupRowAggNodes'] = new import1.SimpleChange(this._expr_59,currValue);
       this._expr_59 = currValue;
     }
   }
-  check_isFullWidthCell(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getRowNodeId(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_60,currValue))) {
       this._changed = true;
-      this.context.isFullWidthCell = currValue;
-      this._changes['isFullWidthCell'] = new import1.SimpleChange(this._expr_60,currValue);
+      this.context.getRowNodeId = currValue;
+      this._changes['getRowNodeId'] = new import1.SimpleChange(this._expr_60,currValue);
       this._expr_60 = currValue;
     }
   }
-  check_fullWidthCellRenderer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_isFullWidthCell(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_61,currValue))) {
       this._changed = true;
-      this.context.fullWidthCellRenderer = currValue;
-      this._changes['fullWidthCellRenderer'] = new import1.SimpleChange(this._expr_61,currValue);
+      this.context.isFullWidthCell = currValue;
+      this._changes['isFullWidthCell'] = new import1.SimpleChange(this._expr_61,currValue);
       this._expr_61 = currValue;
     }
   }
-  check_doesDataFlower(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_fullWidthCellRenderer(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_62,currValue))) {
       this._changed = true;
-      this.context.doesDataFlower = currValue;
-      this._changes['doesDataFlower'] = new import1.SimpleChange(this._expr_62,currValue);
+      this.context.fullWidthCellRenderer = currValue;
+      this._changes['fullWidthCellRenderer'] = new import1.SimpleChange(this._expr_62,currValue);
       this._expr_62 = currValue;
     }
   }
-  check_toolPanelSuppressRowGroups(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_doesDataFlower(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_63,currValue))) {
       this._changed = true;
-      this.context.toolPanelSuppressRowGroups = currValue;
-      this._changes['toolPanelSuppressRowGroups'] = new import1.SimpleChange(this._expr_63,currValue);
+      this.context.doesDataFlower = currValue;
+      this._changes['doesDataFlower'] = new import1.SimpleChange(this._expr_63,currValue);
       this._expr_63 = currValue;
     }
   }
-  check_toolPanelSuppressValues(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_toolPanelSuppressRowGroups(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_64,currValue))) {
       this._changed = true;
-      this.context.toolPanelSuppressValues = currValue;
-      this._changes['toolPanelSuppressValues'] = new import1.SimpleChange(this._expr_64,currValue);
+      this.context.toolPanelSuppressRowGroups = currValue;
+      this._changes['toolPanelSuppressRowGroups'] = new import1.SimpleChange(this._expr_64,currValue);
       this._expr_64 = currValue;
     }
   }
-  check_toolPanelSuppressPivots(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_toolPanelSuppressValues(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_65,currValue))) {
       this._changed = true;
-      this.context.toolPanelSuppressPivots = currValue;
-      this._changes['toolPanelSuppressPivots'] = new import1.SimpleChange(this._expr_65,currValue);
+      this.context.toolPanelSuppressValues = currValue;
+      this._changes['toolPanelSuppressValues'] = new import1.SimpleChange(this._expr_65,currValue);
       this._expr_65 = currValue;
     }
   }
-  check_toolPanelSuppressPivotMode(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_toolPanelSuppressPivots(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_66,currValue))) {
       this._changed = true;
-      this.context.toolPanelSuppressPivotMode = currValue;
-      this._changes['toolPanelSuppressPivotMode'] = new import1.SimpleChange(this._expr_66,currValue);
+      this.context.toolPanelSuppressPivots = currValue;
+      this._changes['toolPanelSuppressPivots'] = new import1.SimpleChange(this._expr_66,currValue);
       this._expr_66 = currValue;
     }
   }
-  check_suppressRowClickSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_toolPanelSuppressPivotMode(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_67,currValue))) {
       this._changed = true;
-      this.context.suppressRowClickSelection = currValue;
-      this._changes['suppressRowClickSelection'] = new import1.SimpleChange(this._expr_67,currValue);
+      this.context.toolPanelSuppressPivotMode = currValue;
+      this._changes['toolPanelSuppressPivotMode'] = new import1.SimpleChange(this._expr_67,currValue);
       this._expr_67 = currValue;
     }
   }
-  check_suppressCellSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressRowClickSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_68,currValue))) {
       this._changed = true;
-      this.context.suppressCellSelection = currValue;
-      this._changes['suppressCellSelection'] = new import1.SimpleChange(this._expr_68,currValue);
+      this.context.suppressRowClickSelection = currValue;
+      this._changes['suppressRowClickSelection'] = new import1.SimpleChange(this._expr_68,currValue);
       this._expr_68 = currValue;
     }
   }
-  check_suppressHorizontalScroll(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressCellSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_69,currValue))) {
       this._changed = true;
-      this.context.suppressHorizontalScroll = currValue;
-      this._changes['suppressHorizontalScroll'] = new import1.SimpleChange(this._expr_69,currValue);
+      this.context.suppressCellSelection = currValue;
+      this._changes['suppressCellSelection'] = new import1.SimpleChange(this._expr_69,currValue);
       this._expr_69 = currValue;
     }
   }
-  check_debug(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressHorizontalScroll(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_70,currValue))) {
       this._changed = true;
-      this.context.debug = currValue;
-      this._changes['debug'] = new import1.SimpleChange(this._expr_70,currValue);
+      this.context.suppressHorizontalScroll = currValue;
+      this._changes['suppressHorizontalScroll'] = new import1.SimpleChange(this._expr_70,currValue);
       this._expr_70 = currValue;
     }
   }
-  check_enableColResize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_debug(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_71,currValue))) {
       this._changed = true;
-      this.context.enableColResize = currValue;
-      this._changes['enableColResize'] = new import1.SimpleChange(this._expr_71,currValue);
+      this.context.debug = currValue;
+      this._changes['debug'] = new import1.SimpleChange(this._expr_71,currValue);
       this._expr_71 = currValue;
     }
   }
-  check_enableCellExpressions(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableColResize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_72,currValue))) {
       this._changed = true;
-      this.context.enableCellExpressions = currValue;
-      this._changes['enableCellExpressions'] = new import1.SimpleChange(this._expr_72,currValue);
+      this.context.enableColResize = currValue;
+      this._changes['enableColResize'] = new import1.SimpleChange(this._expr_72,currValue);
       this._expr_72 = currValue;
     }
   }
-  check_enableSorting(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableCellExpressions(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_73,currValue))) {
       this._changed = true;
-      this.context.enableSorting = currValue;
-      this._changes['enableSorting'] = new import1.SimpleChange(this._expr_73,currValue);
+      this.context.enableCellExpressions = currValue;
+      this._changes['enableCellExpressions'] = new import1.SimpleChange(this._expr_73,currValue);
       this._expr_73 = currValue;
     }
   }
-  check_enableServerSideSorting(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableSorting(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_74,currValue))) {
       this._changed = true;
-      this.context.enableServerSideSorting = currValue;
-      this._changes['enableServerSideSorting'] = new import1.SimpleChange(this._expr_74,currValue);
+      this.context.enableSorting = currValue;
+      this._changes['enableSorting'] = new import1.SimpleChange(this._expr_74,currValue);
       this._expr_74 = currValue;
     }
   }
-  check_enableFilter(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableServerSideSorting(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_75,currValue))) {
       this._changed = true;
-      this.context.enableFilter = currValue;
-      this._changes['enableFilter'] = new import1.SimpleChange(this._expr_75,currValue);
+      this.context.enableServerSideSorting = currValue;
+      this._changes['enableServerSideSorting'] = new import1.SimpleChange(this._expr_75,currValue);
       this._expr_75 = currValue;
     }
   }
-  check_enableServerSideFilter(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableFilter(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_76,currValue))) {
       this._changed = true;
-      this.context.enableServerSideFilter = currValue;
-      this._changes['enableServerSideFilter'] = new import1.SimpleChange(this._expr_76,currValue);
+      this.context.enableFilter = currValue;
+      this._changes['enableFilter'] = new import1.SimpleChange(this._expr_76,currValue);
       this._expr_76 = currValue;
     }
   }
-  check_angularCompileRows(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableServerSideFilter(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_77,currValue))) {
       this._changed = true;
-      this.context.angularCompileRows = currValue;
-      this._changes['angularCompileRows'] = new import1.SimpleChange(this._expr_77,currValue);
+      this.context.enableServerSideFilter = currValue;
+      this._changes['enableServerSideFilter'] = new import1.SimpleChange(this._expr_77,currValue);
       this._expr_77 = currValue;
     }
   }
-  check_angularCompileFilters(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_angularCompileRows(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_78,currValue))) {
       this._changed = true;
-      this.context.angularCompileFilters = currValue;
-      this._changes['angularCompileFilters'] = new import1.SimpleChange(this._expr_78,currValue);
+      this.context.angularCompileRows = currValue;
+      this._changes['angularCompileRows'] = new import1.SimpleChange(this._expr_78,currValue);
       this._expr_78 = currValue;
     }
   }
-  check_angularCompileHeaders(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_angularCompileFilters(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_79,currValue))) {
       this._changed = true;
-      this.context.angularCompileHeaders = currValue;
-      this._changes['angularCompileHeaders'] = new import1.SimpleChange(this._expr_79,currValue);
+      this.context.angularCompileFilters = currValue;
+      this._changes['angularCompileFilters'] = new import1.SimpleChange(this._expr_79,currValue);
       this._expr_79 = currValue;
     }
   }
-  check_groupSuppressAutoColumn(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_angularCompileHeaders(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_80,currValue))) {
       this._changed = true;
-      this.context.groupSuppressAutoColumn = currValue;
-      this._changes['groupSuppressAutoColumn'] = new import1.SimpleChange(this._expr_80,currValue);
+      this.context.angularCompileHeaders = currValue;
+      this._changes['angularCompileHeaders'] = new import1.SimpleChange(this._expr_80,currValue);
       this._expr_80 = currValue;
     }
   }
-  check_groupSelectsChildren(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupSuppressAutoColumn(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_81,currValue))) {
       this._changed = true;
-      this.context.groupSelectsChildren = currValue;
-      this._changes['groupSelectsChildren'] = new import1.SimpleChange(this._expr_81,currValue);
+      this.context.groupSuppressAutoColumn = currValue;
+      this._changes['groupSuppressAutoColumn'] = new import1.SimpleChange(this._expr_81,currValue);
       this._expr_81 = currValue;
     }
   }
-  check_groupIncludeFooter(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupSelectsChildren(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_82,currValue))) {
       this._changed = true;
-      this.context.groupIncludeFooter = currValue;
-      this._changes['groupIncludeFooter'] = new import1.SimpleChange(this._expr_82,currValue);
+      this.context.groupSelectsChildren = currValue;
+      this._changes['groupSelectsChildren'] = new import1.SimpleChange(this._expr_82,currValue);
       this._expr_82 = currValue;
     }
   }
-  check_groupUseEntireRow(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupIncludeFooter(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_83,currValue))) {
       this._changed = true;
-      this.context.groupUseEntireRow = currValue;
-      this._changes['groupUseEntireRow'] = new import1.SimpleChange(this._expr_83,currValue);
+      this.context.groupIncludeFooter = currValue;
+      this._changes['groupIncludeFooter'] = new import1.SimpleChange(this._expr_83,currValue);
       this._expr_83 = currValue;
     }
   }
-  check_groupSuppressRow(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupUseEntireRow(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_84,currValue))) {
       this._changed = true;
-      this.context.groupSuppressRow = currValue;
-      this._changes['groupSuppressRow'] = new import1.SimpleChange(this._expr_84,currValue);
+      this.context.groupUseEntireRow = currValue;
+      this._changes['groupUseEntireRow'] = new import1.SimpleChange(this._expr_84,currValue);
       this._expr_84 = currValue;
     }
   }
-  check_groupSuppressBlankHeader(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupSuppressRow(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_85,currValue))) {
       this._changed = true;
-      this.context.groupSuppressBlankHeader = currValue;
-      this._changes['groupSuppressBlankHeader'] = new import1.SimpleChange(this._expr_85,currValue);
+      this.context.groupSuppressRow = currValue;
+      this._changes['groupSuppressRow'] = new import1.SimpleChange(this._expr_85,currValue);
       this._expr_85 = currValue;
     }
   }
-  check_forPrint(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupSuppressBlankHeader(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_86,currValue))) {
       this._changed = true;
-      this.context.forPrint = currValue;
-      this._changes['forPrint'] = new import1.SimpleChange(this._expr_86,currValue);
+      this.context.groupSuppressBlankHeader = currValue;
+      this._changes['groupSuppressBlankHeader'] = new import1.SimpleChange(this._expr_86,currValue);
       this._expr_86 = currValue;
     }
   }
-  check_suppressMenuHide(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_forPrint(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_87,currValue))) {
       this._changed = true;
-      this.context.suppressMenuHide = currValue;
-      this._changes['suppressMenuHide'] = new import1.SimpleChange(this._expr_87,currValue);
+      this.context.forPrint = currValue;
+      this._changes['forPrint'] = new import1.SimpleChange(this._expr_87,currValue);
       this._expr_87 = currValue;
     }
   }
-  check_rowDeselection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressMenuHide(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_88,currValue))) {
       this._changed = true;
-      this.context.rowDeselection = currValue;
-      this._changes['rowDeselection'] = new import1.SimpleChange(this._expr_88,currValue);
+      this.context.suppressMenuHide = currValue;
+      this._changes['suppressMenuHide'] = new import1.SimpleChange(this._expr_88,currValue);
       this._expr_88 = currValue;
     }
   }
-  check_unSortIcon(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowDeselection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_89,currValue))) {
       this._changed = true;
-      this.context.unSortIcon = currValue;
-      this._changes['unSortIcon'] = new import1.SimpleChange(this._expr_89,currValue);
+      this.context.rowDeselection = currValue;
+      this._changes['rowDeselection'] = new import1.SimpleChange(this._expr_89,currValue);
       this._expr_89 = currValue;
     }
   }
-  check_suppressMultiSort(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_unSortIcon(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_90,currValue))) {
       this._changed = true;
-      this.context.suppressMultiSort = currValue;
-      this._changes['suppressMultiSort'] = new import1.SimpleChange(this._expr_90,currValue);
+      this.context.unSortIcon = currValue;
+      this._changes['unSortIcon'] = new import1.SimpleChange(this._expr_90,currValue);
       this._expr_90 = currValue;
     }
   }
-  check_suppressScrollLag(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressMultiSort(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_91,currValue))) {
       this._changed = true;
-      this.context.suppressScrollLag = currValue;
-      this._changes['suppressScrollLag'] = new import1.SimpleChange(this._expr_91,currValue);
+      this.context.suppressMultiSort = currValue;
+      this._changes['suppressMultiSort'] = new import1.SimpleChange(this._expr_91,currValue);
       this._expr_91 = currValue;
     }
   }
-  check_singleClickEdit(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressScrollLag(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_92,currValue))) {
       this._changed = true;
-      this.context.singleClickEdit = currValue;
-      this._changes['singleClickEdit'] = new import1.SimpleChange(this._expr_92,currValue);
+      this.context.suppressScrollLag = currValue;
+      this._changes['suppressScrollLag'] = new import1.SimpleChange(this._expr_92,currValue);
       this._expr_92 = currValue;
     }
   }
-  check_suppressLoadingOverlay(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_singleClickEdit(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_93,currValue))) {
       this._changed = true;
-      this.context.suppressLoadingOverlay = currValue;
-      this._changes['suppressLoadingOverlay'] = new import1.SimpleChange(this._expr_93,currValue);
+      this.context.singleClickEdit = currValue;
+      this._changes['singleClickEdit'] = new import1.SimpleChange(this._expr_93,currValue);
       this._expr_93 = currValue;
     }
   }
-  check_suppressNoRowsOverlay(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressLoadingOverlay(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_94,currValue))) {
       this._changed = true;
-      this.context.suppressNoRowsOverlay = currValue;
-      this._changes['suppressNoRowsOverlay'] = new import1.SimpleChange(this._expr_94,currValue);
+      this.context.suppressLoadingOverlay = currValue;
+      this._changes['suppressLoadingOverlay'] = new import1.SimpleChange(this._expr_94,currValue);
       this._expr_94 = currValue;
     }
   }
-  check_suppressAutoSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressNoRowsOverlay(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_95,currValue))) {
       this._changed = true;
-      this.context.suppressAutoSize = currValue;
-      this._changes['suppressAutoSize'] = new import1.SimpleChange(this._expr_95,currValue);
+      this.context.suppressNoRowsOverlay = currValue;
+      this._changes['suppressNoRowsOverlay'] = new import1.SimpleChange(this._expr_95,currValue);
       this._expr_95 = currValue;
     }
   }
-  check_suppressParentsInRowNodes(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressAutoSize(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_96,currValue))) {
       this._changed = true;
-      this.context.suppressParentsInRowNodes = currValue;
-      this._changes['suppressParentsInRowNodes'] = new import1.SimpleChange(this._expr_96,currValue);
+      this.context.suppressAutoSize = currValue;
+      this._changes['suppressAutoSize'] = new import1.SimpleChange(this._expr_96,currValue);
       this._expr_96 = currValue;
     }
   }
-  check_showToolPanel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressParentsInRowNodes(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_97,currValue))) {
       this._changed = true;
-      this.context.showToolPanel = currValue;
-      this._changes['showToolPanel'] = new import1.SimpleChange(this._expr_97,currValue);
+      this.context.suppressParentsInRowNodes = currValue;
+      this._changes['suppressParentsInRowNodes'] = new import1.SimpleChange(this._expr_97,currValue);
       this._expr_97 = currValue;
     }
   }
-  check_suppressColumnMoveAnimation(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_showToolPanel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_98,currValue))) {
       this._changed = true;
-      this.context.suppressColumnMoveAnimation = currValue;
-      this._changes['suppressColumnMoveAnimation'] = new import1.SimpleChange(this._expr_98,currValue);
+      this.context.showToolPanel = currValue;
+      this._changes['showToolPanel'] = new import1.SimpleChange(this._expr_98,currValue);
       this._expr_98 = currValue;
     }
   }
-  check_suppressMovableColumns(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressColumnMoveAnimation(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_99,currValue))) {
       this._changed = true;
-      this.context.suppressMovableColumns = currValue;
-      this._changes['suppressMovableColumns'] = new import1.SimpleChange(this._expr_99,currValue);
+      this.context.suppressColumnMoveAnimation = currValue;
+      this._changes['suppressColumnMoveAnimation'] = new import1.SimpleChange(this._expr_99,currValue);
       this._expr_99 = currValue;
     }
   }
-  check_suppressFieldDotNotation(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressMovableColumns(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_100,currValue))) {
       this._changed = true;
-      this.context.suppressFieldDotNotation = currValue;
-      this._changes['suppressFieldDotNotation'] = new import1.SimpleChange(this._expr_100,currValue);
+      this.context.suppressMovableColumns = currValue;
+      this._changes['suppressMovableColumns'] = new import1.SimpleChange(this._expr_100,currValue);
       this._expr_100 = currValue;
     }
   }
-  check_enableRangeSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressFieldDotNotation(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_101,currValue))) {
       this._changed = true;
-      this.context.enableRangeSelection = currValue;
-      this._changes['enableRangeSelection'] = new import1.SimpleChange(this._expr_101,currValue);
+      this.context.suppressFieldDotNotation = currValue;
+      this._changes['suppressFieldDotNotation'] = new import1.SimpleChange(this._expr_101,currValue);
       this._expr_101 = currValue;
     }
   }
-  check_suppressEnterprise(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableRangeSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_102,currValue))) {
       this._changed = true;
-      this.context.suppressEnterprise = currValue;
-      this._changes['suppressEnterprise'] = new import1.SimpleChange(this._expr_102,currValue);
+      this.context.enableRangeSelection = currValue;
+      this._changes['enableRangeSelection'] = new import1.SimpleChange(this._expr_102,currValue);
       this._expr_102 = currValue;
     }
   }
-  check_rowGroupPanelShow(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressEnterprise(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_103,currValue))) {
       this._changed = true;
-      this.context.rowGroupPanelShow = currValue;
-      this._changes['rowGroupPanelShow'] = new import1.SimpleChange(this._expr_103,currValue);
+      this.context.suppressEnterprise = currValue;
+      this._changes['suppressEnterprise'] = new import1.SimpleChange(this._expr_103,currValue);
       this._expr_103 = currValue;
     }
   }
-  check_pivotPanelShow(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rowGroupPanelShow(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_104,currValue))) {
       this._changed = true;
-      this.context.pivotPanelShow = currValue;
-      this._changes['pivotPanelShow'] = new import1.SimpleChange(this._expr_104,currValue);
+      this.context.rowGroupPanelShow = currValue;
+      this._changes['rowGroupPanelShow'] = new import1.SimpleChange(this._expr_104,currValue);
       this._expr_104 = currValue;
     }
   }
-  check_suppressContextMenu(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_pivotPanelShow(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_105,currValue))) {
       this._changed = true;
-      this.context.suppressContextMenu = currValue;
-      this._changes['suppressContextMenu'] = new import1.SimpleChange(this._expr_105,currValue);
+      this.context.pivotPanelShow = currValue;
+      this._changes['pivotPanelShow'] = new import1.SimpleChange(this._expr_105,currValue);
       this._expr_105 = currValue;
     }
   }
-  check_suppressMenuFilterPanel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressContextMenu(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_106,currValue))) {
       this._changed = true;
-      this.context.suppressMenuFilterPanel = currValue;
-      this._changes['suppressMenuFilterPanel'] = new import1.SimpleChange(this._expr_106,currValue);
+      this.context.suppressContextMenu = currValue;
+      this._changes['suppressContextMenu'] = new import1.SimpleChange(this._expr_106,currValue);
       this._expr_106 = currValue;
     }
   }
-  check_suppressMenuMainPanel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressMenuFilterPanel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_107,currValue))) {
       this._changed = true;
-      this.context.suppressMenuMainPanel = currValue;
-      this._changes['suppressMenuMainPanel'] = new import1.SimpleChange(this._expr_107,currValue);
+      this.context.suppressMenuFilterPanel = currValue;
+      this._changes['suppressMenuFilterPanel'] = new import1.SimpleChange(this._expr_107,currValue);
       this._expr_107 = currValue;
     }
   }
-  check_suppressMenuColumnPanel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressMenuMainPanel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_108,currValue))) {
       this._changed = true;
-      this.context.suppressMenuColumnPanel = currValue;
-      this._changes['suppressMenuColumnPanel'] = new import1.SimpleChange(this._expr_108,currValue);
+      this.context.suppressMenuMainPanel = currValue;
+      this._changes['suppressMenuMainPanel'] = new import1.SimpleChange(this._expr_108,currValue);
       this._expr_108 = currValue;
     }
   }
-  check_enableStatusBar(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressMenuColumnPanel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_109,currValue))) {
       this._changed = true;
-      this.context.enableStatusBar = currValue;
-      this._changes['enableStatusBar'] = new import1.SimpleChange(this._expr_109,currValue);
+      this.context.suppressMenuColumnPanel = currValue;
+      this._changes['suppressMenuColumnPanel'] = new import1.SimpleChange(this._expr_109,currValue);
       this._expr_109 = currValue;
     }
   }
-  check_rememberGroupStateWhenNewData(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableStatusBar(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_110,currValue))) {
       this._changed = true;
-      this.context.rememberGroupStateWhenNewData = currValue;
-      this._changes['rememberGroupStateWhenNewData'] = new import1.SimpleChange(this._expr_110,currValue);
+      this.context.enableStatusBar = currValue;
+      this._changes['enableStatusBar'] = new import1.SimpleChange(this._expr_110,currValue);
       this._expr_110 = currValue;
     }
   }
-  check_enableCellChangeFlash(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_rememberGroupStateWhenNewData(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_111,currValue))) {
       this._changed = true;
-      this.context.enableCellChangeFlash = currValue;
-      this._changes['enableCellChangeFlash'] = new import1.SimpleChange(this._expr_111,currValue);
+      this.context.rememberGroupStateWhenNewData = currValue;
+      this._changes['rememberGroupStateWhenNewData'] = new import1.SimpleChange(this._expr_111,currValue);
       this._expr_111 = currValue;
     }
   }
-  check_suppressDragLeaveHidesColumns(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableCellChangeFlash(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_112,currValue))) {
       this._changed = true;
-      this.context.suppressDragLeaveHidesColumns = currValue;
-      this._changes['suppressDragLeaveHidesColumns'] = new import1.SimpleChange(this._expr_112,currValue);
+      this.context.enableCellChangeFlash = currValue;
+      this._changes['enableCellChangeFlash'] = new import1.SimpleChange(this._expr_112,currValue);
       this._expr_112 = currValue;
     }
   }
-  check_suppressMiddleClickScrolls(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressDragLeaveHidesColumns(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_113,currValue))) {
       this._changed = true;
-      this.context.suppressMiddleClickScrolls = currValue;
-      this._changes['suppressMiddleClickScrolls'] = new import1.SimpleChange(this._expr_113,currValue);
+      this.context.suppressDragLeaveHidesColumns = currValue;
+      this._changes['suppressDragLeaveHidesColumns'] = new import1.SimpleChange(this._expr_113,currValue);
       this._expr_113 = currValue;
     }
   }
-  check_suppressPreventDefaultOnMouseWheel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressMiddleClickScrolls(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_114,currValue))) {
       this._changed = true;
-      this.context.suppressPreventDefaultOnMouseWheel = currValue;
-      this._changes['suppressPreventDefaultOnMouseWheel'] = new import1.SimpleChange(this._expr_114,currValue);
+      this.context.suppressMiddleClickScrolls = currValue;
+      this._changes['suppressMiddleClickScrolls'] = new import1.SimpleChange(this._expr_114,currValue);
       this._expr_114 = currValue;
     }
   }
-  check_suppressUseColIdForGroups(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressPreventDefaultOnMouseWheel(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_115,currValue))) {
       this._changed = true;
-      this.context.suppressUseColIdForGroups = currValue;
-      this._changes['suppressUseColIdForGroups'] = new import1.SimpleChange(this._expr_115,currValue);
+      this.context.suppressPreventDefaultOnMouseWheel = currValue;
+      this._changes['suppressPreventDefaultOnMouseWheel'] = new import1.SimpleChange(this._expr_115,currValue);
       this._expr_115 = currValue;
     }
   }
-  check_suppressCopyRowsToClipboard(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressUseColIdForGroups(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_116,currValue))) {
       this._changed = true;
-      this.context.suppressCopyRowsToClipboard = currValue;
-      this._changes['suppressCopyRowsToClipboard'] = new import1.SimpleChange(this._expr_116,currValue);
+      this.context.suppressUseColIdForGroups = currValue;
+      this._changes['suppressUseColIdForGroups'] = new import1.SimpleChange(this._expr_116,currValue);
       this._expr_116 = currValue;
     }
   }
-  check_pivotMode(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressCopyRowsToClipboard(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_117,currValue))) {
       this._changed = true;
-      this.context.pivotMode = currValue;
-      this._changes['pivotMode'] = new import1.SimpleChange(this._expr_117,currValue);
+      this.context.suppressCopyRowsToClipboard = currValue;
+      this._changes['suppressCopyRowsToClipboard'] = new import1.SimpleChange(this._expr_117,currValue);
       this._expr_117 = currValue;
     }
   }
-  check_suppressAggFuncInHeader(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_pivotMode(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_118,currValue))) {
       this._changed = true;
-      this.context.suppressAggFuncInHeader = currValue;
-      this._changes['suppressAggFuncInHeader'] = new import1.SimpleChange(this._expr_118,currValue);
+      this.context.pivotMode = currValue;
+      this._changes['pivotMode'] = new import1.SimpleChange(this._expr_118,currValue);
       this._expr_118 = currValue;
     }
   }
-  check_suppressColumnVirtualisation(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressAggFuncInHeader(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_119,currValue))) {
       this._changed = true;
-      this.context.suppressColumnVirtualisation = currValue;
-      this._changes['suppressColumnVirtualisation'] = new import1.SimpleChange(this._expr_119,currValue);
+      this.context.suppressAggFuncInHeader = currValue;
+      this._changes['suppressAggFuncInHeader'] = new import1.SimpleChange(this._expr_119,currValue);
       this._expr_119 = currValue;
     }
   }
-  check_suppressFocusAfterRefresh(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressColumnVirtualisation(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_120,currValue))) {
       this._changed = true;
-      this.context.suppressFocusAfterRefresh = currValue;
-      this._changes['suppressFocusAfterRefresh'] = new import1.SimpleChange(this._expr_120,currValue);
+      this.context.suppressColumnVirtualisation = currValue;
+      this._changes['suppressColumnVirtualisation'] = new import1.SimpleChange(this._expr_120,currValue);
       this._expr_120 = currValue;
     }
   }
-  check_functionsPassive(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressFocusAfterRefresh(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_121,currValue))) {
       this._changed = true;
-      this.context.functionsPassive = currValue;
-      this._changes['functionsPassive'] = new import1.SimpleChange(this._expr_121,currValue);
+      this.context.suppressFocusAfterRefresh = currValue;
+      this._changes['suppressFocusAfterRefresh'] = new import1.SimpleChange(this._expr_121,currValue);
       this._expr_121 = currValue;
     }
   }
-  check_functionsReadOnly(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_functionsPassive(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_122,currValue))) {
       this._changed = true;
-      this.context.functionsReadOnly = currValue;
-      this._changes['functionsReadOnly'] = new import1.SimpleChange(this._expr_122,currValue);
+      this.context.functionsPassive = currValue;
+      this._changes['functionsPassive'] = new import1.SimpleChange(this._expr_122,currValue);
       this._expr_122 = currValue;
     }
   }
-  check_defaultColGroupDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_functionsReadOnly(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_123,currValue))) {
       this._changed = true;
-      this.context.defaultColGroupDef = currValue;
-      this._changes['defaultColGroupDef'] = new import1.SimpleChange(this._expr_123,currValue);
+      this.context.functionsReadOnly = currValue;
+      this._changes['functionsReadOnly'] = new import1.SimpleChange(this._expr_123,currValue);
       this._expr_123 = currValue;
     }
   }
-  check_editType(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_defaultColGroupDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_124,currValue))) {
       this._changed = true;
-      this.context.editType = currValue;
-      this._changes['editType'] = new import1.SimpleChange(this._expr_124,currValue);
+      this.context.defaultColGroupDef = currValue;
+      this._changes['defaultColGroupDef'] = new import1.SimpleChange(this._expr_124,currValue);
       this._expr_124 = currValue;
     }
   }
-  check_scrollbarWidth(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_editType(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_125,currValue))) {
       this._changed = true;
-      this.context.scrollbarWidth = currValue;
-      this._changes['scrollbarWidth'] = new import1.SimpleChange(this._expr_125,currValue);
+      this.context.editType = currValue;
+      this._changes['editType'] = new import1.SimpleChange(this._expr_125,currValue);
       this._expr_125 = currValue;
     }
   }
-  check_groupRowInnerRendererFramework(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_scrollbarWidth(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_126,currValue))) {
       this._changed = true;
-      this.context.groupRowInnerRendererFramework = currValue;
-      this._changes['groupRowInnerRendererFramework'] = new import1.SimpleChange(this._expr_126,currValue);
+      this.context.scrollbarWidth = currValue;
+      this._changes['scrollbarWidth'] = new import1.SimpleChange(this._expr_126,currValue);
       this._expr_126 = currValue;
     }
   }
-  check_groupRowRendererFramework(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupRowInnerRendererFramework(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_127,currValue))) {
       this._changed = true;
-      this.context.groupRowRendererFramework = currValue;
-      this._changes['groupRowRendererFramework'] = new import1.SimpleChange(this._expr_127,currValue);
+      this.context.groupRowInnerRendererFramework = currValue;
+      this._changes['groupRowInnerRendererFramework'] = new import1.SimpleChange(this._expr_127,currValue);
       this._expr_127 = currValue;
     }
   }
-  check_fullWidthCellRendererFramework(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupRowRendererFramework(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_128,currValue))) {
       this._changed = true;
-      this.context.fullWidthCellRendererFramework = currValue;
-      this._changes['fullWidthCellRendererFramework'] = new import1.SimpleChange(this._expr_128,currValue);
+      this.context.groupRowRendererFramework = currValue;
+      this._changes['groupRowRendererFramework'] = new import1.SimpleChange(this._expr_128,currValue);
       this._expr_128 = currValue;
     }
   }
-  check_processSecondaryColDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_fullWidthCellRendererFramework(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_129,currValue))) {
       this._changed = true;
-      this.context.processSecondaryColDef = currValue;
-      this._changes['processSecondaryColDef'] = new import1.SimpleChange(this._expr_129,currValue);
+      this.context.fullWidthCellRendererFramework = currValue;
+      this._changes['fullWidthCellRendererFramework'] = new import1.SimpleChange(this._expr_129,currValue);
       this._expr_129 = currValue;
     }
   }
-  check_processSecondaryColGroupDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_processSecondaryColDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_130,currValue))) {
       this._changed = true;
-      this.context.processSecondaryColGroupDef = currValue;
-      this._changes['processSecondaryColGroupDef'] = new import1.SimpleChange(this._expr_130,currValue);
+      this.context.processSecondaryColDef = currValue;
+      this._changes['processSecondaryColDef'] = new import1.SimpleChange(this._expr_130,currValue);
       this._expr_130 = currValue;
     }
   }
-  check_suppressRowHoverClass(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_processSecondaryColGroupDef(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_131,currValue))) {
       this._changed = true;
-      this.context.suppressRowHoverClass = currValue;
-      this._changes['suppressRowHoverClass'] = new import1.SimpleChange(this._expr_131,currValue);
+      this.context.processSecondaryColGroupDef = currValue;
+      this._changes['processSecondaryColGroupDef'] = new import1.SimpleChange(this._expr_131,currValue);
       this._expr_131 = currValue;
     }
   }
-  check_suppressTouch(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressRowHoverClass(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_132,currValue))) {
       this._changed = true;
-      this.context.suppressTouch = currValue;
-      this._changes['suppressTouch'] = new import1.SimpleChange(this._expr_132,currValue);
+      this.context.suppressRowHoverClass = currValue;
+      this._changes['suppressRowHoverClass'] = new import1.SimpleChange(this._expr_132,currValue);
       this._expr_132 = currValue;
     }
   }
-  check_animateRows(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressTouch(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_133,currValue))) {
       this._changed = true;
-      this.context.animateRows = currValue;
-      this._changes['animateRows'] = new import1.SimpleChange(this._expr_133,currValue);
+      this.context.suppressTouch = currValue;
+      this._changes['suppressTouch'] = new import1.SimpleChange(this._expr_133,currValue);
       this._expr_133 = currValue;
     }
   }
-  check_groupSelectsFiltered(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_animateRows(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_134,currValue))) {
       this._changed = true;
-      this.context.groupSelectsFiltered = currValue;
-      this._changes['groupSelectsFiltered'] = new import1.SimpleChange(this._expr_134,currValue);
+      this.context.animateRows = currValue;
+      this._changes['animateRows'] = new import1.SimpleChange(this._expr_134,currValue);
       this._expr_134 = currValue;
     }
   }
-  check_groupRemoveSingleChildren(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupSelectsFiltered(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_135,currValue))) {
       this._changed = true;
-      this.context.groupRemoveSingleChildren = currValue;
-      this._changes['groupRemoveSingleChildren'] = new import1.SimpleChange(this._expr_135,currValue);
+      this.context.groupSelectsFiltered = currValue;
+      this._changes['groupSelectsFiltered'] = new import1.SimpleChange(this._expr_135,currValue);
       this._expr_135 = currValue;
     }
   }
-  check_getBusinessKeyForNode(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_groupRemoveSingleChildren(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_136,currValue))) {
       this._changed = true;
-      this.context.getBusinessKeyForNode = currValue;
-      this._changes['getBusinessKeyForNode'] = new import1.SimpleChange(this._expr_136,currValue);
+      this.context.groupRemoveSingleChildren = currValue;
+      this._changes['groupRemoveSingleChildren'] = new import1.SimpleChange(this._expr_136,currValue);
       this._expr_136 = currValue;
     }
   }
-  check_checkboxSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getBusinessKeyForNode(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_137,currValue))) {
       this._changed = true;
-      this.context.checkboxSelection = currValue;
-      this._changes['checkboxSelection'] = new import1.SimpleChange(this._expr_137,currValue);
+      this.context.getBusinessKeyForNode = currValue;
+      this._changes['getBusinessKeyForNode'] = new import1.SimpleChange(this._expr_137,currValue);
       this._expr_137 = currValue;
     }
   }
-  check_enableRtl(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_checkboxSelection(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_138,currValue))) {
       this._changed = true;
-      this.context.enableRtl = currValue;
-      this._changes['enableRtl'] = new import1.SimpleChange(this._expr_138,currValue);
+      this.context.checkboxSelection = currValue;
+      this._changes['checkboxSelection'] = new import1.SimpleChange(this._expr_138,currValue);
       this._expr_138 = currValue;
     }
   }
-  check_suppressClickEdit(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableRtl(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_139,currValue))) {
       this._changed = true;
-      this.context.suppressClickEdit = currValue;
-      this._changes['suppressClickEdit'] = new import1.SimpleChange(this._expr_139,currValue);
+      this.context.enableRtl = currValue;
+      this._changes['enableRtl'] = new import1.SimpleChange(this._expr_139,currValue);
       this._expr_139 = currValue;
     }
   }
-  check_enableRtlSupport(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_suppressClickEdit(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_140,currValue))) {
       this._changed = true;
-      this.context.enableRtlSupport = currValue;
-      this._changes['enableRtlSupport'] = new import1.SimpleChange(this._expr_140,currValue);
+      this.context.suppressClickEdit = currValue;
+      this._changes['suppressClickEdit'] = new import1.SimpleChange(this._expr_140,currValue);
       this._expr_140 = currValue;
     }
   }
-  check_excelStyles(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableRtlSupport(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_141,currValue))) {
       this._changed = true;
-      this.context.excelStyles = currValue;
-      this._changes['excelStyles'] = new import1.SimpleChange(this._expr_141,currValue);
+      this.context.enableRtlSupport = currValue;
+      this._changes['enableRtlSupport'] = new import1.SimpleChange(this._expr_141,currValue);
       this._expr_141 = currValue;
     }
   }
-  check_dateComponent(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_excelStyles(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_142,currValue))) {
       this._changed = true;
-      this.context.dateComponent = currValue;
-      this._changes['dateComponent'] = new import1.SimpleChange(this._expr_142,currValue);
+      this.context.excelStyles = currValue;
+      this._changes['excelStyles'] = new import1.SimpleChange(this._expr_142,currValue);
       this._expr_142 = currValue;
     }
   }
-  check_dateComponentFramework(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_dateComponent(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_143,currValue))) {
       this._changed = true;
-      this.context.dateComponentFramework = currValue;
-      this._changes['dateComponentFramework'] = new import1.SimpleChange(this._expr_143,currValue);
+      this.context.dateComponent = currValue;
+      this._changes['dateComponent'] = new import1.SimpleChange(this._expr_143,currValue);
       this._expr_143 = currValue;
     }
   }
-  check_dateComponentParams(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_dateComponentFramework(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_144,currValue))) {
       this._changed = true;
-      this.context.dateComponentParams = currValue;
-      this._changes['dateComponentParams'] = new import1.SimpleChange(this._expr_144,currValue);
+      this.context.dateComponentFramework = currValue;
+      this._changes['dateComponentFramework'] = new import1.SimpleChange(this._expr_144,currValue);
       this._expr_144 = currValue;
     }
   }
-  check_sendToClipboard(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_dateComponentParams(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_145,currValue))) {
       this._changed = true;
-      this.context.sendToClipboard = currValue;
-      this._changes['sendToClipboard'] = new import1.SimpleChange(this._expr_145,currValue);
+      this.context.dateComponentParams = currValue;
+      this._changes['dateComponentParams'] = new import1.SimpleChange(this._expr_145,currValue);
       this._expr_145 = currValue;
     }
   }
-  check_navigateToNextCell(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_sendToClipboard(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_146,currValue))) {
       this._changed = true;
-      this.context.navigateToNextCell = currValue;
-      this._changes['navigateToNextCell'] = new import1.SimpleChange(this._expr_146,currValue);
+      this.context.sendToClipboard = currValue;
+      this._changes['sendToClipboard'] = new import1.SimpleChange(this._expr_146,currValue);
       this._expr_146 = currValue;
     }
   }
-  check_tabToNextCell(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_navigateToNextCell(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_147,currValue))) {
       this._changed = true;
-      this.context.tabToNextCell = currValue;
-      this._changes['tabToNextCell'] = new import1.SimpleChange(this._expr_147,currValue);
+      this.context.navigateToNextCell = currValue;
+      this._changes['navigateToNextCell'] = new import1.SimpleChange(this._expr_147,currValue);
       this._expr_147 = currValue;
     }
   }
-  check_processCellFromClipboard(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_tabToNextCell(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_148,currValue))) {
       this._changed = true;
-      this.context.processCellFromClipboard = currValue;
-      this._changes['processCellFromClipboard'] = new import1.SimpleChange(this._expr_148,currValue);
+      this.context.tabToNextCell = currValue;
+      this._changes['tabToNextCell'] = new import1.SimpleChange(this._expr_148,currValue);
       this._expr_148 = currValue;
     }
   }
-  check_getDocument(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_processCellFromClipboard(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_149,currValue))) {
       this._changed = true;
-      this.context.getDocument = currValue;
-      this._changes['getDocument'] = new import1.SimpleChange(this._expr_149,currValue);
+      this.context.processCellFromClipboard = currValue;
+      this._changes['processCellFromClipboard'] = new import1.SimpleChange(this._expr_149,currValue);
       this._expr_149 = currValue;
     }
   }
-  check_enableGroupEdit(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_getDocument(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_150,currValue))) {
       this._changed = true;
-      this.context.enableGroupEdit = currValue;
-      this._changes['enableGroupEdit'] = new import1.SimpleChange(this._expr_150,currValue);
+      this.context.getDocument = currValue;
+      this._changes['getDocument'] = new import1.SimpleChange(this._expr_150,currValue);
       this._expr_150 = currValue;
     }
   }
-  check_embedFullWidthRows(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_enableGroupEdit(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_151,currValue))) {
       this._changed = true;
-      this.context.embedFullWidthRows = currValue;
-      this._changes['embedFullWidthRows'] = new import1.SimpleChange(this._expr_151,currValue);
+      this.context.enableGroupEdit = currValue;
+      this._changes['enableGroupEdit'] = new import1.SimpleChange(this._expr_151,currValue);
       this._expr_151 = currValue;
     }
   }
-  check_suppressTabbing(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_embedFullWidthRows(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_152,currValue))) {
       this._changed = true;
-      this.context.suppressTabbing = currValue;
-      this._changes['suppressTabbing'] = new import1.SimpleChange(this._expr_152,currValue);
+      this.context.embedFullWidthRows = currValue;
+      this._changes['embedFullWidthRows'] = new import1.SimpleChange(this._expr_152,currValue);
       this._expr_152 = currValue;
+    }
+  }
+  check_suppressTabbing(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+    if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_153,currValue))) {
+      this._changed = true;
+      this.context.suppressTabbing = currValue;
+      this._changes['suppressTabbing'] = new import1.SimpleChange(this._expr_153,currValue);
+      this._expr_153 = currValue;
+    }
+  }
+  check_rowDataSource(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+    if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_154,currValue))) {
+      this._changed = true;
+      this.context.rowDataSource = currValue;
+      this._changes['rowDataSource'] = new import1.SimpleChange(this._expr_154,currValue);
+      this._expr_154 = currValue;
+    }
+  }
+  check_rowDataSourceKeyProperty(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+    if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_155,currValue))) {
+      this._changed = true;
+      this.context.rowDataSourceKeyProperty = currValue;
+      this._changes['rowDataSourceKeyProperty'] = new import1.SimpleChange(this._expr_155,currValue);
+      this._expr_155 = currValue;
     }
   }
   ngDoCheck(view:import2.AppView<any>,el:any,throwOnChange:boolean):boolean {

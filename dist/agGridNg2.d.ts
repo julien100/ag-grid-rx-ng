@@ -82,6 +82,7 @@ export declare class AgGridNg2 implements AfterViewInit {
     getMainMenuItems: any;
     processRowPostCreate: any;
     processCellForClipboard: any;
+    getNodeChildDetails: any;
     groupRowAggNodes: any;
     getRowNodeId: any;
     isFullWidthCell: any;
@@ -177,6 +178,8 @@ export declare class AgGridNg2 implements AfterViewInit {
     enableGroupEdit: any;
     embedFullWidthRows: any;
     suppressTabbing: any;
+    rowDataSource: any;
+    rowDataSourceKeyProperty: any;
     /**
      * Outputs
      */

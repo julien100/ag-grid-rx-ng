@@ -69,7 +69,7 @@ var AgGridNg2 = (function () {
         this.getMainMenuItems = undefined;
         this.processRowPostCreate = undefined;
         this.processCellForClipboard = undefined;
-        //@Input() public getNodeChildDetails: any = undefined;
+        this.getNodeChildDetails = undefined;
         this.groupRowAggNodes = undefined;
         this.getRowNodeId = undefined;
         this.isFullWidthCell = undefined;
@@ -165,6 +165,8 @@ var AgGridNg2 = (function () {
         this.enableGroupEdit = undefined;
         this.embedFullWidthRows = undefined;
         this.suppressTabbing = undefined;
+        this.rowDataSource = undefined;
+        this.rowDataSourceKeyProperty = undefined;
         this._nativeElement = elementDef.nativeElement;
         // create all the events generically. this is done generically so that
         // if the list of grid events change, we don't need to change this code.
@@ -311,6 +313,7 @@ var AgGridNg2 = (function () {
         'getMainMenuItems': [{ type: core_1.Input },],
         'processRowPostCreate': [{ type: core_1.Input },],
         'processCellForClipboard': [{ type: core_1.Input },],
+        'getNodeChildDetails': [{ type: core_1.Input },],
         'groupRowAggNodes': [{ type: core_1.Input },],
         'getRowNodeId': [{ type: core_1.Input },],
         'isFullWidthCell': [{ type: core_1.Input },],
@@ -406,6 +409,8 @@ var AgGridNg2 = (function () {
         'enableGroupEdit': [{ type: core_1.Input },],
         'embedFullWidthRows': [{ type: core_1.Input },],
         'suppressTabbing': [{ type: core_1.Input },],
+        'rowDataSource': [{ type: core_1.Input },],
+        'rowDataSourceKeyProperty': [{ type: core_1.Input },],
         'gridReady': [{ type: core_1.Output },],
         'columnEverythingChanged': [{ type: core_1.Output },],
         'newColumnsLoaded': [{ type: core_1.Output },],
