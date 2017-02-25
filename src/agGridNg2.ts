@@ -131,7 +131,6 @@ export class AgGridNg2 implements AfterViewInit {
     @Input() public gridOptions: GridOptions;
     @Input() public slaveGrids: any = undefined;
     @Input() public rowData: any = undefined;
-    @Input() public rowDataKeyProperty: any = undefined;
     @Input() public floatingTopRowData: any = undefined;
     @Input() public floatingBottomRowData: any = undefined;
     @Input() public columnDefs: any = undefined;
@@ -186,7 +185,7 @@ export class AgGridNg2 implements AfterViewInit {
     @Input() public getMainMenuItems: any = undefined;
     @Input() public processRowPostCreate: any = undefined;
     @Input() public processCellForClipboard: any = undefined;
-    //@Input() public getNodeChildDetails: any = undefined;
+    @Input() public getNodeChildDetails: any = undefined;
     @Input() public groupRowAggNodes: any = undefined;
     @Input() public getRowNodeId: any = undefined;
     @Input() public isFullWidthCell: any = undefined;
@@ -282,6 +281,8 @@ export class AgGridNg2 implements AfterViewInit {
     @Input() public enableGroupEdit: any = undefined;
     @Input() public embedFullWidthRows: any = undefined;
     @Input() public suppressTabbing: any = undefined;
+    @Input() public rowDataSource: any = undefined;
+    @Input() public rowDataSourceKeyProperty: any = undefined;
 
     /**
      * Outputs

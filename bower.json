@@ -1,9 +1,10 @@
 {
   "name": "ag-grid-rx-ng",
-  "version": "8.0.1",
-  "homepage": "https://github.com/mrsheepuk/ag-grid-rx",
+  "version": "8.1.1",
+  "homepage": "https://github.com/mrsheepuk/ag-grid-rx-ng",
   "authors": [
-    "Niall Crosby <niall.crosby@ag-grid.com>"
+    "Niall Crosby <niall.crosby@ag-grid.com>",
+    "Mark Hughes (Rx fork) <mrsheepuk@mrsheep.co.uk>"
   ],
   "description": "ag-Grid-rx Angular (2+) Component",
   "main": [
